@@ -3,7 +3,7 @@
 ## Подготовка. Для работы текущего проекта нужно:
 - чтобы был установлен и была произведена первичная настройка **Git**
 - должен быть установлен **CMake**
-- должен быть установлен **vcpkg** и произведён `bootstrap`
+- должен быть установлен **vcpkg** и произведён [bootstrap](https://learn.microsoft.com/en-us/vcpkg/get_started/get-started?pivots=shell-powershell#1---set-up-vcpkg)
 - должна быть установлена **Visual Studio** с компилятором **MSVC** (скрипты ожидают стандартный путь до `vcvars64.bat`).
 
 > **Важно:** скрипты [build.cmd](build.cmd), [configure.cmd](configure.cmd) и [start_nuke.cmd](start_nuke.cmd) содержат абсолютные пути, характерные для конкретной машины (путь к Visual Studio, к Nuke, к кэшу плагинов). Перед использованием откройте эти файлы и подправьте пути под свою систему.
